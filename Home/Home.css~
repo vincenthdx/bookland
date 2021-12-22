@@ -1,0 +1,108 @@
+body{
+	/*background:white;*/ 
+	background: rgb(210,210,210);
+	margin: 0px;
+	padding: 0px;
+}
+
+.titre{
+	background-color:  rgb(0,51,102); 
+	font-family: Cambria;
+	font-size: 40px;
+	padding-left: 30px;
+	color: white; 
+}
+
+.barresearch{
+	background-color:  black;
+	padding-left: 70%;
+	height: 40px;
+	box-shadow: 0px 5px 11px 0px black;
+}
+
+.textsearch{
+	width: 300px;	
+	height: 30px;
+	margin-top: 5px;
+}
+
+.bouttonsearch{
+	background-color: black;
+	color: white;
+	font-family: Nirmala UI ;
+	border:none;
+
+}
+-----------------------
+.choixposit{
+
+}
+
+.validerdirection{
+	height: 28px;
+	width: 28px;
+	border-radius: 14px;
+	border-style: none;
+	margin-bottom: 3px;
+}
+
+.tout2{
+	display: inline-block;
+		position: absolute;
+}
+
+select{
+	display: inline-block;
+	position: relative;
+	margin-left: 900px;
+	bottom: 12px;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	font-family: Nirmala UI ;
+	color: rgb(0,51,102); 
+	font-size: 14px;
+}
+
+------------------------
+.tout{
+
+}
+
+.gauche{
+	display: inline-block;/*Comme c'est un span on peut modifié la taille*/
+	background-color: white;
+	opacity: 0.70;
+	width: 25%;
+	height: 88%;
+	box-shadow: 2px 0px 5px 0px black;
+	margin-top: 3px;
+
+}
+.droite{
+	display: inline-block;/*Comme c'est un span on peut modifié la taille*/
+	width: 25%;
+	background-color: white;
+	opacity: 0.70;
+	height: 88%;
+	box-shadow: -2px 0px 5px 0px black;
+}
+
+.centre{
+	display: inline-block;/*Comme c'est un span on peut modifié la taille*/
+	width: 49.4%;
+	background-color: white;
+	opacity: 0.70;
+	height: 88%;
+	box-shadow: 0px 0px 23px 5px black; 
+}
+
+.resultatR{
+	position: absolute;
+	background-color: black;
+	opacity: 0.70;
+	top: 20%;
+	left: 33%;
+	height: 40%;
+	width: 40%;
+}

@@ -1,0 +1,109 @@
+div#gauche{ /* permet de créé une bordure à 8% du coté gauche de la page, crée une zone du coté gauche de la page de 40% de large et de 100% de hauteur qui contient le premier cv et qui va centrer tous les textes dans cette zone */
+	position:absolute;
+	top:0%;
+	left:8%;
+	border-left:2px solid black;
+	text-align:center;	
+	width: 40%;
+	height: 100%;
+}
+
+div#droite{  /* permet de créé une bordure à 8% du coté droit de la page, crée une zone du coté droit de la page de 40% de large et de 100% de hauteur qui contient le deuxième cv et qui va centrer tous les textes dans cette zone */
+	position:absolute;
+	top:0%;
+	right:8%;
+	border-right:2px solid black;
+	text-align:center;	
+	width: 40%;
+	height: 100%;
+}
+
+div#centre{ /* permet de crée une barre verticale au milieu de la page afin de séparer les 2 cv */
+	position:absolute;
+	top:0%;
+	right:50%;
+	border-right:2px solid black;
+	width: 1%;
+	height: 100%;
+}
+
+div#presentation{  /* crée une ligne horizontale à 30% du haut de la page et qui s'étend sur toute la partie gauche */
+	position:absolute;
+	top:0%;
+	border-bottom:2px solid black;
+	width:104.4%;    
+	height:30%;
+}
+
+div#formation{   /* crée une ligne horizontale à 47% du haut de la page et qui s'étend sur toute la partie gauche */
+	position:absolute;
+	top:30%;
+	left:0%;
+	border-bottom:2px solid black;
+	width:104.4%;    
+	height:17%;
+}
+
+div#experiences_professionnel{   /* crée une ligne horizontale à 65% du haut de la page et qui s'étend sur toute la partie gauche */
+	position:absolute;
+	top:50%;
+	left:0%;
+	border-bottom:2px solid black;
+	width:104.4%;    
+	height:15%;
+}
+
+div#bordure_gauche{  /* permet de créé une bordure à 8% de la page en partant du coin en haut à gauche et qui descend sur toute la page. La zone entre le coté de la page et la bordure possède une couleur d'arrière plan */
+	position:absolute;
+	top:0%;
+	left:0%;	
+	width: 8%;
+	height: 100%;
+	background-color:#808080;
+}
+
+div#bordure_droite{  /* permet de créé une bordure à 8% de la page en partant du coin en haut à droite et qui descend sur toute la page. La zone entre le coté de la page et la bordure possède une couleur d'arrière plan */
+	position:absolute;
+	top:0%;
+	right:0%;	
+	width: 8%;
+	height: 100%;
+	background-color:#808080;
+}
+
+div#presentation_2{   /* crée une ligne horizontale à 30% du haut de la page et qui s'étend sur toute la partie droite */
+	position:absolute;
+	top:0%;
+	right:0%;
+	border-bottom:2px solid black;	
+	width:104.4%;    
+	height:30%;
+}
+
+div#formation_2{   /* crée une ligne horizontale à 47% du haut de la page et qui s'étend sur toute la partie droite */
+	position:absolute;
+	top:30%;
+	right:0%;
+	border-bottom:2px solid black;	
+	width:104.4%;    
+	height:17%;
+}
+
+div#experiences_professionnel_2{  /* crée une ligne horizontale à 65% du haut de la page et qui s'étend sur toute la partie droite */
+	position:absolute;
+	top:50%;
+	right:0%;
+	border-bottom:2px solid black;
+	width:104.4%;    
+	height:15%;
+}
+
+div#logo{   /* permet de positionner le logo en haut à droite de la page et de l'entourer de bordure noir. Le z-index lui permet d'être afficher par dessus les autres éléments et ainsi d'être visible*/
+	position:absolute;
+	top:0%;
+	right:0%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	z-index:10;
+}

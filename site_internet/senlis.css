@@ -1,0 +1,39 @@
+h2{ /* permet de centrer, de souligner et de mettre en rouge le texte qui se trouve dans la balise "h2" */
+	text-align:center;
+	text-decoration:underline;
+	color:red;
+}
+
+p{  /* permet d'aligner le texte qui se trouve dans la balise "p" */
+	text-align:center;
+}
+
+div#gauche{  /* permet de créé une bordure à 8% de la page en partant du coin en haut à gauche et qui descend sur toute la page. La zone entre le coté de la page et la bordure possède une couleur d'arrière plan */
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 8%;
+	height: 150%;
+	border-right: 2px solid black;
+	background:#808080;
+}
+
+div#droite { /* permet de créé une bordure à 8% de la page en partant du coin en haut à droite et qui descend sur toute la page. La zone entre le coté de la page et la bordure possède une couleur d'arrière plan */
+	position: absolute;
+	top: 0%;
+	right:0%;
+	width: 8%;
+	height: 150%;
+	border-left: 2px solid black;
+	background:#808080;
+}
+
+div#logo{  /* permet de positionner le logo en haut à droite de la page et de l'entourer de bordure noir. Le z-index lui permet d'être afficher par dessus les autres éléments et ainsi d'être visible*/
+	position:absolute;
+	 top:0%;
+	 right:0%;
+	 border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	z-index:10;
+}

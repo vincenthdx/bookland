@@ -1,0 +1,167 @@
+div#haut {    /* permet de crée la zone dans laquelle se trouve la bannière, le font-size permet d'augmenter la taille du texte,
+				le bakground-size permet que la bannière s'étende sur toute la longueur et le background-repeat permet qu'elle ne se répéte pas, qu'elle s'affiche une seule fois  et le z-index permet de pouvoir superposer des choses par dessus la bannière */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 20%;
+	background: url("image_projet/banniere_1.jfif");
+	border-bottom: 1px solid black;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	color:lightgrey;
+	z-index:1;
+	font-size:150%
+} 
+
+div#logo{    /* permet de positionner le logo en haut à droite de la page. Le z-index lui permet d'être afficher par dessus les autres éléments et ainsi d'être visible*/
+	position:absolute;
+	top:0%;
+	right:0%;
+	z-index:2;
+}
+
+div#texte_avec_lien { /* définit la zone et la couleur d'arrière plan dans laquelle se trouve les liens redirigant vers les autres pages du site. Cette zone est entouré de bordure et le texte est centré */
+	position: absolute;
+	top: 17%;
+	left:0%;
+	width: 100%;
+	height: 2.8%;
+	background-color:lightblue;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	text-align:center;
+	z-index:3;
+}
+
+h4{ /* positione et centre le texte contenu dans la balise "h4" */
+	position:absolute;
+	top:20%;
+	left:0%;
+	width: 100%;
+	text-align:center;
+}
+
+div#Gauche {  /* crée une zone du coté gauche de la page entouré de bordure dans laquelle on mettre des images */
+	position: absolute;
+	top: 27%;
+	left:0%;
+	width: 30%;
+	height: 65%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	z-index:9;
+}
+
+div#milieu{ /* crée une zone au centre de la page entouré de bordure dans laquelle on mettre des images */
+	position: absolute;
+	top:27%;
+	left:30%;
+	height:65%;
+	width:40%;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	z-index:9;
+}                                                                              
+
+div#droite{  /* crée une zone du coté droit de la page entouré de bordure dans laquelle on mettre des images */
+	position: absolute;
+	top:27%;
+	left:70%;
+	height:65%;
+	width:30%;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	z-index:9;
+}
+
+#bouton {  /* permet de positionner et de centrer le bouton pour changer de page d'acceuil */
+	position: absolute;
+	top: 95%;
+	left: 42%;
+	width: 15%;
+	height: 5%;
+	text-align: center
+}
+
+.cathedrale{  /* permet de positionner l'image de la cathédrale de senlis */
+	position:absolute;
+	top:32%;
+	left:5%;
+	z-index:10;
+}
+
+.foot{  /* permet de positionner l'image de la balle de foot */
+	position:absolute;
+	top:70%;
+	right:10%;
+	z-index:10;
+}
+
+.netflix{  /* permet de positionner l'image de netflix */
+	position:absolute;
+	top:53%;
+	right:5%;
+	z-index:10;
+}
+
+.basket{  /* permet de positionner l'image de la balle de basket */
+	position:absolute;
+	top:33%;
+	right:10%;
+	z-index:10;
+}
+
+.mehdi{  /* permet de positionner l'image de mehdi */
+	position:absolute;
+	top:33%;
+	right:45%;
+	z-index:10;
+}
+
+.vincent{  /* permet de positionner l'image de vincent */
+	position:absolute;
+	top:65%;
+	right:45%;
+	z-index:10;
+}
+
+div#background{   /* permet de définir la zone qui va être affecté par le changement de couleur grâce au java script */
+	position:absolute;
+	top:27%;
+	left:0%;
+	width:100%;
+	height:65.3%;
+	
+}
+
+div#couleur1 {  /* définit la zone ou l'on va cliquer pour changer la couleur d'arrière plan et d'entourer cette zone de bordure */
+	position: absolute;
+	top: 95%;
+	left: 59%;
+	width: 40px;
+	height: 40px;
+	background: lightblue;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+div#couleur2 {   /* définit la zone ou l'on va cliquer pour changer la couleur d'arrière plan et d'entourer cette zone de bordure */
+	position: absolute;
+	top: 95%;
+	left: 37%;
+	width: 40px;
+	height: 40px;
+	background: #D3D3D3;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+

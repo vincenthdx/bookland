@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<HTML LANG="fr">
+	<HEAD>
+		 <META CHARSET="UTF-8">
+		 <META NAME="AUTHOR" CONTENT="CHAIBET Mehdi, HADOUX Vincent">
+		 <TITLE>
+		 	Vos avis
+		 </TITLE>
+		 <link type="text/css" rel="stylesheet" href="site_internet/avis.css">
+		 
+	</HEAD>
+	<body>
+		<div id="logo">
+ 			<img src="image_projet\logo_1.jfif"  width="70" height="70">
+ 		</div>
+ 		
+		<br><br>
+		
+		<div id="gauche">
+		</div>
+		
+		<div id="droite">
+		</div>
+		
+		<div id="centre">
+
+		
+ 			<h1 class="titre"> <b>Vos avis </b></h1>
+ 			
+ 			<h3>
+ 				<center>
+ 					Qu'avez vous penser de l'aspect esthétique du site ?
+ 					
+ 					<form>
+ 						<br>
+ 						très beau<INPUT TYPE="radio" NAME="bouton"VALUE="C1"> 
+ 						agréable <INPUT TYPE="radio"  NAME="bouton"VALUE="C2">
+ 						élégant<INPUT TYPE="radio" NAME="bouton" VALUE="C3"> 
+ 						passable <INPUT TYPE="radio" NAME="bouton"VALUE="C4"> 
+ 						à améliorer<INPUT TYPE="radio" NAME="bouton"VALUE="C5"> 
+ 						médiocre <INPUT TYPE="radio" NAME="bouton"VALUE="C6"> 
+ 					</form>
+ 					<br><br>
+
+ 					<form>	
+ 						<p id="question2" style="display:none">       <!-- permet de masquer tout ce qui se trouve à l'intérieur de la balise "p" -->
+ 							Qu'avez vous penser du contenu du site ?<br>
+ 					
+ 							<br>
+ 							complet<INPUT TYPE="radio" NAME="bouton"VALUE="C1"> 
+ 							pertinent<INPUT TYPE="radio"  NAME="bouton"VALUE="C2">
+ 							à completer<INPUT TYPE="radio" NAME="bouton" VALUE="C3">
+ 							médiocre <INPUT TYPE="radio" NAME="bouton"VALUE="C4"> 
+	
+ 					
+ 							<br><br>
+ 						</p>
+ 					</form>
+ 					
+ 					<input type="button" name="question 2" value="question 2 " onClick="document.getElementById('question2').style.display='block'"><br>    <!--Crée un bouton qui va permettre, lorsque l'on clique dessus d'afficher le texte qui a été masqué précédement -->
+ 					
+ 					<form> 
+ 						<p id="question3" style="display:none">     <!-- permet de masquer tout ce qui se trouve à l'intérieur de la balise "p" -->
+ 							Si vous deviez mettre une note au site, laquelle serait la plus convenable ?<br>
+ 					
+ 							<br>
+ 							1/10<INPUT TYPE="radio" NAME="bouton"VALUE="C1"> 
+ 							2/10<INPUT TYPE="radio"  NAME="bouton"VALUE="C2">
+ 							3/10<INPUT TYPE="radio" NAME="bouton" VALUE="C3">
+ 							4/10 <INPUT TYPE="radio" NAME="bouton"VALUE="C4"> 
+ 							5/10<INPUT TYPE="radio" NAME="bouton"VALUE="C5"> 
+ 							6/10<INPUT TYPE="radio" NAME="bouton"VALUE="C6">
+ 							7/10<INPUT TYPE="radio" NAME="bouton" VALUE="C7">
+ 							8/10 <INPUT TYPE="radio" NAME="bouton"VALUE="C8"> 
+ 							9/10<INPUT TYPE="radio" NAME="bouton"VALUE="C9"> 
+ 							10/10<INPUT TYPE="radio"  NAME="bouton"VALUE="C10">
+	
+ 							<br><br><br>
+ 						</p>
+ 					</form>
+ 				
+ 					<input type="button" name="question 3" value="question 3" onClick="document.getElementById('question3').style.display='block'"><br>    <!--Crée un bouton qui va permettre, lorsque l'on clique dessus d'afficher le texte qui a été masqué précédement -->
+
+
+ 					<form>
+ 						<p id="question4" style="display:none">Comment pouvons nous améliorez notre site ?<br><br>       <!-- permet de masquer tout ce qui se trouve à l'intérieur de la balise "p" -->
+ 					
+ 							<TEXTAREA NAME="Zone" COLS="40" ROWS="5"></TEXTAREA>
+ 					
+ 							<br><br>
+ 						</p>
+ 					</form>
+
+ 					<input type="button" name="question 4" value="question 4" onClick="document.getElementById('question4').style.display='block'"><br><br>    <!--Crée un bouton qui va permettre, lorsque l'on clique dessus d'afficher le texte qui a été masqué précédement -->
+ 						
+ 					<form>		
+
+ 						<INPUT TYPE="submit" NAME="envoyer"VALUE="envoyer">   <!-- bouton qui permet d'envoyer les réponses précédement saisies dans le formulaire -->
+ 						
+ 					</form><br><br>
+ 					
+ 					Cliquez sur les différentes parties de l'image pour revenir sur les pages précédentes<br><br>
+ 					
+ 					<map name="Mis(map)">
+ 					
+						<area shape="rect"
+						coords="57,8,182,39"
+						href="Hobbies.html">
+						
+						<area shape="rect"
+						coords="40,68,205,101"
+						href="Senlis.html">
+						
+						<area shape="polygon"
+						coords="118, 106, 190, 183, 120, 242, 53, 178"
+						href="page_acceuil1.html">
+						
+						<area shape="rect"
+						coords="87,251,150,273"
+						href="CV.html">
+						
+					</map>
+					
+					<Img Src="image_projet/usms.jfif" usemap="#Mis(map)" ISMAP>
+ 					
+ 				</center>
+ 			</h3>
+ 		</div>
+ 		
+ 	</body>
+</HTML>
+

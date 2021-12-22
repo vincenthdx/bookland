@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+genre_index: 
+    path:  /index
+    controller: App\Controller\GenreController::index    

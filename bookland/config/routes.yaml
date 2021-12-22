@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+bookland_init:
+    path:  /bookland/init
+    controller: App\Controller\InitController::init    
+
+bookland_livre:
+    resource: routes/livre/routes.yaml
+    prefix:   /bookland/livre
+
+bookland_auteur:
+    resource: routes/auteur/routes.yaml
+    prefix:   /bookland/auteur
+
+bookland_genre:
+    resource: routes/genre/routes.yaml
+    prefix:   /bookland/genre

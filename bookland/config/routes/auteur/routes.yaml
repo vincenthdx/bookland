@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+auteur_index: 
+    path:  /index
+    controller: App\Controller\AuteurController::index    

@@ -1,0 +1,97 @@
+body{
+	/*background:white;*/ 
+	background: rgb(210,210,210);
+	margin: 0px;
+	padding: 0px;
+}
+
+legend{
+	font-family: Nirmala UI ;
+	font-size: 50px; 
+	color: rgb(0,51,102); 
+}
+
+fieldset{
+	border-color: rgb(0,51,102); 
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 20px;
+	/*box-shadow: 2px 2px 2px black;*/
+	box-shadow: 2px 2px 10px #000;
+	-webkit-box-shadow:inset -10px -10px 5px 3px #656565;
+	-moz-box-shadow:inset -10px -10px 5px 3px #656565;
+	box-shadow:inset -5px -5px 8px 2px #656565;
+}
+
+.formul{
+	padding-left: 350px; 
+	padding-right: 350px;
+}
+
+.titre{
+	font-size: 80px; 
+	padding: 20px;
+	background-color:  rgb(0,51,102); 
+	font-family: Cambria;
+	text-align: center;
+	color: white;
+	border-bottom: solid;
+	border-bottom-width: 20px;
+	border-bottom-color:black;  
+	box-shadow: 2px 2px 10px #000;
+
+}
+
+td {
+	font-weight:20px;
+	font-family: Nirmala UI ;
+	color: rgb(0,51,102);
+	font-size: 20px;
+}
+
+.bouton{
+	background:  #016ABC;
+	border-style: outset;
+	text-shadow: none;
+	height: 30px;
+	width: 130px;
+	border-radius: 20px;	
+	box-shadow: 2px 2px 10px #000;
+	font-family: Nirmala UI ;
+	font-size: 20px;
+	border: none;
+	text-align: center;
+}
+
+.champ{
+	border-color: black;
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+}
+/*
+img{
+	width: 40%;
+}*/
+
+.image1{
+	position: absolute;
+	/*z-index: "1";*/
+	width: 40%;
+}
+
+.image2{
+	margin-bottom: 20px;
+	margin-left: 101px;
+	margin-top: 85px;
+	position: none;
+	height: 400;
+}
+
+.rejoin{
+	color: white;
+	font-family: Nirmala UI ;
+	font-size: 20px;	
+	border-left: solid;
+	border-left-width:5px; 
+}
